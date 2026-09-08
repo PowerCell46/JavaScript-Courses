@@ -9,3 +9,8 @@ Consolidated repo for SoftUni JavaScript coursework, previously spread across se
 | [`Advanced/`](./Advanced) | JS Advanced @ SoftUni, May 2023 | [Java-Script-Advanced](https://github.com/PowerCell46/Java-Script-Advanced) |
 | [`Applications/`](./Applications) | JS Applications @ SoftUni, June 2023 | [JS-Applications](https://github.com/PowerCell46/JS-Applications) |
 | [`Back-End/`](./Back-End) | JS Backend @ SoftUni, Sep 2023/Jan 2024 | [JS-Back-End](https://github.com/PowerCell46/JS-Back-End) |
+
+## Projects
+| Folder | Description | Original repo |
+|---|---|---|
+| [`Projects/Fitness-Pro-Gym/`](./Projects/Fitness-Pro-Gym) | React website for a local Sofia gym | [Fitness-Pro-Gym-React-Project](https://github.com/PowerCell46/Fitness-Pro-Gym-React-Project) |
