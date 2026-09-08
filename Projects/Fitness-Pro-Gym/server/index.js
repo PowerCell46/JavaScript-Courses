@@ -21,7 +21,7 @@ app.use(router);
 
 mongoose.set("strictQuery", false);
 // mongodb://127.0.0.1:27017/fitnessProGym <----> Local Database
-mongoose.connect("mongodb+srv://PowerCell46:PowerCell46@cluster0.xhq46jq.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://__PLACEHOLDER__:__PLACEHOLDER__@cluster0.xhq46jq.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true });
 // mongoose.set('debug', true);
 
 
