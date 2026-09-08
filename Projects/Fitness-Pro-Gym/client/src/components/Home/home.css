@@ -1,0 +1,187 @@
+.main-section {
+    width: 100.1vw;
+    height: 60vh;
+    margin: 12.5vh auto 0;
+    margin-left: -0.7vh;
+    position: relative;
+    z-index: -1;
+
+    background-image: url('./images/main-room.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    animation-name: bgPositionAnim;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.main-h1 {
+    color: whitesmoke;
+    font-size: 7rem;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
+    text-align: center;
+    letter-spacing: 0.7rem;
+}
+
+
+.rooms-heading, .home-main {
+    width: 100vw;
+    margin-left: -0.4vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.rooms-heading {
+    height: 20vw;
+    background-image: url('https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w03193-small.jpg');
+    background-position: center;
+    animation-name: bgPositionAnim;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
+}
+
+
+.rooms-heading h2 {
+    color: whitesmoke;
+    font-size: 5rem;
+    font-family: 'Permanent Marker';
+    letter-spacing: 0.5rem;
+    text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
+}
+
+
+.home-main {
+    background-image: linear-gradient(to right top, #14539a, #0074b3, #0092bc, #00afb6, #00c9a7);
+}
+
+
+.first-main {
+    background-image: linear-gradient(to right top, #14539a, #0074b3, #0092bc, #00afb6, #00c9a7);
+}
+
+
+.second-main {
+    background-image: linear-gradient(to right top, #4375ae, #007ead, #0086a1, #008a8e, #008d75);
+}
+
+
+.third-main {
+    background-image: linear-gradient(to left top, #00c9a7, #00c0c0, #00b4ce, #4ca6ce, #7298c2);
+}
+
+
+.home-main h2 {
+    text-align: center;
+    width: 40vw;
+    color: #d6d6d6;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
+    letter-spacing: 0.2rem;
+    
+    animation-name: bounceInLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+
+.home-main div p {
+    color: whitesmoke;
+    width: 50vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Salsa', cursive;
+    font-size: 1.6rem;
+    text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
+    line-height: 2;
+    letter-spacing: 0.1rem;
+
+    animation-name: bounceInLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+
+.home-main div iframe {
+    border-radius: 0.3rem;
+}
+
+
+.home-main div h5 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Salsa', cursive;
+    letter-spacing: 0.1rem;
+    text-shadow: 5px 0px 7px rgba(0,0,0,0.68);
+    font-size: 2rem;
+    margin-bottom: 4vh;
+}
+
+
+.home-main img {
+    border-radius: 0.25rem;
+    width: 40vw;
+    transition: 400ms ease-in-out;
+    animation-name: bounceInRight;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+
+.home-main img:hover {
+    -webkit-filter: blur(5px);
+    filter: blur(3px);
+}
+
+
+.home-main h2 span {
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+
+@media screen and (min-width: 2501px) { 
+    .home-main img  {
+        width: 37vw;
+    }
+
+
+    .home-main div iframe {
+        width: 30vw;
+        height: 40vh;
+    }
+}
+
+
+@media screen and (max-width: 1900px) { 
+
+    .main-section {
+        margin-left: -0.8vw;
+    }
+
+
+    .home-main div iframe {
+        width: 30vw;
+        height: 40vh;
+    }
+
+    
+    .home-main img  {
+        width: 35.5vw;
+    }
+}
